@@ -1,0 +1,11 @@
+# Log and Auxiliary files
+*.log
+*.aux
+
+#Logs folder
+/logs/
+
+# Google Auth Files
+credentials.json
+token.json
+client_secret.json

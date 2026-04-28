@@ -1,0 +1,118 @@
+\documentclass[letterpaper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[margin=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{charter}
+
+% --- PAGE SETUP ---
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% --- SECTION FORMATTING ---
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% --- COMMANDS ---
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% --- DOCUMENT ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Huge \scshape BHARGAV MADHAV PRATHIVADI BHAYANKARAM} \\ \vspace{5pt}
+    \small 
+    \faMapMarker* \ Tempe, Arizona \ $|$ \ 
+    \faPhone \ +1 (602) 696-5147 \ $|$ \ 
+    \faEnvelope \ \href{mailto:Bhargavmadhav.pb@gmail.com}{Bhargavmadhav.pb@gmail.com} \ $|$ \ 
+    \faLinkedin \ \href{https://linkedin.com/in/bhargav-madhav}{LinkedIn}
+\end{center}
+
+% --- PROFESSIONAL SUMMARY ---
+\section{PROFESSIONAL SUMMARY}
+\small
+
+\vspace{-5pt}
+
+% --- EXPERIENCE ---
+\section{PROFESSIONAL EXPERIENCE}
+\resumeSubHeadingListStart
+\resumeSubheading{Estate Dekho}{Hyderabad, India}{Software Engineer}{Jan 2023 -- Dec 2023} \resumeItemListStart \resumeItem{Executed large-scale legacy data migration to **AWS DynamoDB** using robust **Python** data tooling, implementing advanced indexing strategies to reduce end-to-end processing latency by 60\% (from 1.5s to 600ms).}
+\resumeItem{Optimized core search backend algorithms integrated within **AWS data engineering pipelines**, resulting in a significant 39\% reduction in average API response time (from 900ms to 550ms).}
+\resumeItem{Developed real-time telemetry infrastructure using Python/Node.js and WebSockets, resulting in the elimination of polling overhead and enabling live state synchronization for high-traffic data streams.}
+\resumeItem{Simulated comprehensive RESTful API load scenarios using Docker containerization to precisely evaluate system limits, increasing promoted listing click-through rates by 20\%.}
+\resumeItem{Redesigned React/Redux frontend architecture to support dynamic content rendering, boosting user engagement metrics by over 25\%.}
+ \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% --- PROJECTS ---
+\section{TECHNICAL PROJECTS}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Deep Learning-based Blockchain Fraud Detection} $|$ \emph{Python, TensorFlow, Autoencoders}}{} \resumeItemListStart \resumeItem{Designed a security framework using Deep Learning to identify malicious ERC-20 smart contract transactions.}
+\resumeItem{Architected the anomaly detection pipeline using Recurrent Autoencoders and TensorFlow to analyze transaction patterns in real-time.}
+\resumeItem{Achieved 94\% accuracy, reduced false positives by 28\%, and prevented simulated financial losses of over \$250,000.}
+ \resumeItemListEnd\resumeProjectHeading{\textbf{Loan Prediction \& Approval Pipeline} $|$ \emph{Python, Pandas, MLOps}}{} \resumeItemListStart \resumeItem{Developed an end-to-end Machine Learning solution in **Python** to automate the assessment of loan eligibility probabilities.}
+\resumeItem{Built predictive models using **Scikit-learn** and automated data preprocessing workflows using **Pandas** to handle large datasets.}
+\resumeItem{Reduced manual review workloads by 60\% and slashed data preparation time from 3 hours to 30 minutes, improving compliance transparency.}
+ \resumeItemListEnd\resumeProjectHeading{\textbf{Crypto Payment Gateway} $|$ \emph{Blockchain, Solidity, Flask}}{} \resumeItemListStart \resumeItem{Created a decentralized payment solution enabling secure and fast micro-transactions on the blockchain.}
+\resumeItem{Led a 3-engineer team to develop the backend logic using Solidity smart contracts and Flask integration.}
+\resumeItem{Improved transaction speed by 45\%, cut costs by 30\%, and won 1st Prize at IEEE Hackathon for innovation.}
+ \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% --- EDUCATION ---
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading{Arizona State University}{Tempe, Arizona}{Master of Science, Information Technology}{Jan 2024 -- Dec 2025} \resumeItemListStart \resumeItem{GPA: 3.97/4.0} \resumeItem{Coursework: Advanced Big Data Analytics \& AI, NLP for IT, Visualization, Advanced DBMS, Data in Cloud} \resumeItemListEnd\resumeSubheading{Jawaharlal Nehru Technological University}{Hyderabad, India}{Bachelor of Technology, Computer Science}{Jun 2019 -- Jul 2023} \resumeItemListStart \resumeItem{GPA: 3.20/4.0} \resumeItem{Coursework: Data Structures, Data Mining, DBMS, Software Engineering, Virtual Reality} \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% --- SKILLS ---
+\section{SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, Java, C, GoLang, Solidity} \\
+     \textbf{Machine Learning}{: Supervised/Unsupervised Learning, Deep Learning (CNNs, RNNs, Autoencoders), Data Science Libraries (Pandas, NumPy, Scikit-learn), NLP} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (DynamoDB, SageMaker, S3, Redshift, Glue), Apache Spark, Hadoop, TensorFlow, PyTorch, Docker, MLflow, Airflow, FastAPI, Git, CI/CD} \\
+     \textbf{Visualization}{: Tableau, Power BI, Matplotlib, Seaborn}
+    }}
+\end{itemize}
+
+% --- CERTIFICATIONS ---
+\section{CERTIFICATIONS}
+\resumeSubHeadingListStart
+\resumeItem{AWS Data Engineering}
+\resumeItem{AWS Machine Learning Foundations}
+\resumeItem{AWS ML for Natural Language Processing}
+
+\resumeSubHeadingListEnd
+
+\end{document}

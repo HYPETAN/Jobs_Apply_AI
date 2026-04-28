@@ -1,0 +1,101 @@
+\documentclass[letterpaper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[margin=0.5in]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{charter}
+
+% --- PAGE SETUP ---
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% --- SECTION FORMATTING ---
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% --- COMMANDS ---
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% --- DOCUMENT ---
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Huge \scshape VAR_NAME} \\ \vspace{5pt}
+    \small 
+    \faMapMarker* \ VAR_LOCATION \ $|$ \ 
+    \faPhone \ VAR_PHONE \ $|$ \ 
+    \faEnvelope \ \href{mailto:VAR_EMAIL}{VAR_EMAIL} \ $|$ \ 
+    \faLinkedin \ \href{https://linkedin.com/in/bhargav-madhav}{LinkedIn}
+\end{center}
+
+% --- PROFESSIONAL SUMMARY ---
+\section{PROFESSIONAL SUMMARY}
+\small
+VAR_SUMMARY_TEXT
+\vspace{-5pt}
+
+% --- EXPERIENCE ---
+\section{PROFESSIONAL EXPERIENCE}
+\resumeSubHeadingListStart
+VAR_EXPERIENCE_SECTION
+\resumeSubHeadingListEnd
+
+% --- PROJECTS ---
+\section{TECHNICAL PROJECTS}
+\resumeSubHeadingListStart
+VAR_PROJECTS_SECTION
+\resumeSubHeadingListEnd
+
+% --- EDUCATION ---
+\section{EDUCATION}
+\resumeSubHeadingListStart
+VAR_EDUCATION_SECTION
+\resumeSubHeadingListEnd
+
+% --- SKILLS ---
+\section{SKILLS}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: VAR_SKILLS_LANG} \\
+     \textbf{Machine Learning}{: VAR_SKILLS_ML} \\
+     \textbf{Cloud \& Infrastructure}{: VAR_SKILLS_CLOUD} \\
+     \textbf{Visualization}{: VAR_SKILLS_VIS}
+    }}
+\end{itemize}
+
+% --- CERTIFICATIONS ---
+\section{CERTIFICATIONS}
+\resumeSubHeadingListStart
+VAR_CERTIFICATIONS_SECTION
+\resumeSubHeadingListEnd
+
+\end{document}

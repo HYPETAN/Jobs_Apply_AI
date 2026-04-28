@@ -1,0 +1,85 @@
+{
+  "personal_info": {
+    "name": "BHARGAV MADHAV PRATHIVADI BHAYANKARAM",
+    "location": "Tempe, Arizona",
+    "phone": "+1 (602) 696-5147",
+    "email": "Bhargavmadhav.pb@gmail.com",
+    "linkedin": "linkedin.com/in/bhargav-madhav",
+    "github": "github.com/bhargav-madhav"
+  },
+  "summary": "Software engineer with 1 year of experience building real-time telemetry and data pipelines using Python, Go and AWS. Skilled in MLOps and deployment with TensorFlow, PyTorch, MLflow and FastAPI, alongside expertise in supervised and unsupervised learning for NLP and deep learning. Passionate about developing simulation systems and evaluation workflows to improve AI reliability.",
+  "education": [
+    {
+      "school": "Arizona State University",
+      "degree": "Master of Science, Information Technology",
+      "location": "Tempe, Arizona",
+      "dates": "Jan 2024 -- Dec 2025",
+      "gpa": "3.97/4.0",
+      "coursework": "Advanced Big Data Analytics & AI, NLP for IT, Visualization, Advanced DBMS, Data in Cloud"
+    },
+    {
+      "school": "Jawaharlal Nehru Technological University",
+      "degree": "Bachelor of Technology, Computer Science",
+      "location": "Hyderabad, India",
+      "dates": "Jun 2019 -- Jul 2023",
+      "gpa": "3.20/4.0",
+      "coursework": "Data Structures, Data Mining, DBMS, Software Engineering, Virtual Reality"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Estate Dekho",
+      "role": "Software Engineer",
+      "location": "Hyderabad, India",
+      "dates": "Jan 2023 -- Dec 2023",
+      "bullets": [
+        "Engineered real-time telemetry infrastructure using Python and Node.js with WebSockets, eliminating polling overhead and enabling live state synchronization for high-traffic property listings.",
+        "Migrated legacy records to Amazon DynamoDB using Python data tooling, implementing advanced indexing and Streams to reduce end-to-end processing latency from 1.5s to under 600ms.",
+        "Optimized search backend algorithms in C within AWS data engineering pipelines and Git for version control, cutting API response time from 900ms to 550ms.",
+        "Developed and simulated RESTful API load scenarios using Docker to evaluate system performance, driving a 20% increase in click-through rates on promoted listings.",
+        "Redesigned frontend interfaces with React and Redux to support dynamic content rendering, improving engagement metrics by over 25%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deep Learning-based Blockchain Fraud Detection",
+      "tech": "Python, TensorFlow, Autoencoders",
+      "bullets": [
+        "Designed a security framework to identify malicious ERC-20 smart contract transactions using Deep Learning.",
+        "Architected the anomaly detection pipeline using Recurrent Autoencoders and TensorFlow to analyze transaction patterns in real-time.",
+        "Achieved 94% accuracy, reduced false positives by 28%, and prevented simulated financial losses of over $250,000."
+      ]
+    },
+    {
+      "name": "Loan Prediction & Approval Pipeline",
+      "tech": "Python, Pandas, MLOps",
+      "bullets": [
+        "Developed an end-to-end Machine Learning solution to automate the assessment of loan eligibility probabilities.",
+        "Built predictive models using Scikit-learn and automated the data preprocessing workflows to handle large datasets.",
+        "Reduced manual review workloads by 60%, slashed data preparation time from 3 hours to 30 minutes, and improved compliance transparency."
+      ]
+    },
+    {
+      "name": "Crypto Payment Gateway",
+      "tech": "Blockchain, Solidity, Flask",
+      "bullets": [
+        "Created a decentralized payment solution enabling secure and fast micro-transactions on the blockchain.",
+        "Led a 3-engineer team to develop the backend logic using Solidity smart contracts and Flask integration.",
+        "Improved transaction speed by 45%, cut costs by 30%, and won 1st Prize at IEEE Hackathon for innovation."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": "Python, Java, SQL, C, GoLang, Solidity",
+    "ml_ai": "Supervised/Unsupervised Learning, Deep Learning (CNNs, RNNs, Autoencoders), NLP",
+    "cloud": "AWS (SageMaker, S3, Redshift, Glue, DynamoDB), Apache Spark, Hadoop",
+    "tools": "TensorFlow, PyTorch, Docker, MLflow, Airflow, FastAPI, Git, CI/CD",
+    "visualization": "Tableau, Power BI, Matplotlib, Seaborn"
+  },
+  "certifications": [
+    "AWS Data Engineering",
+    "AWS Machine Learning Foundations",
+    "AWS ML for Natural Language Processing"
+  ]
+}
